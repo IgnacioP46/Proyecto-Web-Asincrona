@@ -68,7 +68,7 @@ header button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 600px;
   background-image: url('./public/assets/gatito.jpg');
   background-size: cover;
   background-position: center;
