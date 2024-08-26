@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Web Asíncrono</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <header>
+    <h1>Proyecto Web Asíncrono</h1>
+    <input type="text" id="input-busqueda" placeholder="Buscar imágenes...">
+    <select id="categoria-busqueda">
+      <option value="">Selecciona una categoría</option>
+      <option value="naturaleza">Naturaleza</option>
+      <option value="tecnologia">Tecnología</option>
+      <option value="personas">Personas</option>
+      <option value="animales">Animales</option>
+    </select>
+    <button id="boton-buscar">Buscar</button>
+  </header>
+  <section class="hero">
+    <h2>Descubre el mundo a través de nuestras imágenes</h2>
+  </section>
+  <div id="loader" class="loader hidden"></div>
+  <main id="grid-imagenes"></main>
+  <footer>
+    <p>&copy; Desarrollado por Ignacio Perez</p>
+  </footer>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
