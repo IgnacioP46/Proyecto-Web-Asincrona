@@ -69,7 +69,7 @@ header button:hover {
   justify-content: center;
   align-items: center;
   height: 600px;
-  background-image: url('./public/assets/gatito.jpg');
+  background-image: url('./public/assets/gato.png');
   background-size: cover;
   background-position: center;
   color: #fff;
